@@ -9,7 +9,6 @@ controller.createTransaction=(req,res)=>{
       console.log('error in Connecting Transaction Microservice');
        res.send(err);
     }else{
-      console.log("PO Microservice connected");
        console.log(response);
       res.send({msg:response});
     }
