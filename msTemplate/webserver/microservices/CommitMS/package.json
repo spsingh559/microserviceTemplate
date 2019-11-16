@@ -1,0 +1,19 @@
+{
+  "name": "CommitMS",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Commit.service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon Commit.service.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs": "0.0.1-security",
+    "seneca": "^3.17.0",
+    "seneca-balance-client": "^1.1.1",
+    "seneca-mesh": "^1.2.1"
+  }
+}
