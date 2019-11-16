@@ -13,6 +13,7 @@
   "dependencies": {
     "body-parser": "^1.18.3",
     "express": "^4.16.4",
+    "lodash": "^4.17.13",
     "seneca": "^3.17.0",
     "seneca-balance-client": "^1.1.1",
     "seneca-mesh": "^1.2.1"
